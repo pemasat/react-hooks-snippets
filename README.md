@@ -6,6 +6,7 @@ Package with snippets for React Hooks
 
 ## Installation
 Install package 'react-hooks-snippets' in Atom.
+**After, restart Atom**
 
 ## Usage
 ![](https://media.giphy.com/media/U8Z62wur2FlHuplNuV/giphy.gif)
