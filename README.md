@@ -1,10 +1,13 @@
 # React Hooks Snippets [![Build Status](https://travis-ci.org/mib32/react-hooks-snippets.svg?branch=master)](https://travis-ci.org/mib32/react-hooks-snippets)
 **Package for Github's Atom Editor**
 
+## About
+Package with snippets for React Hooks
+
 ## Installation
 Install package 'react-hooks-snippets' in Atom.
 
-## About
+## Usage
 ![](https://media.giphy.com/media/U8Z62wur2FlHuplNuV/giphy.gif)
 ```
 ust: useState
