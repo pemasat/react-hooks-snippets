@@ -1,0 +1,4 @@
+'.source.js.jsx':
+  'hook':
+    'prefix': 'us'
+    'body': 'const [${1:name}, set${1/^(.){1}(.*)*/\\u$1$2/}] = React.use${2:State}($3)'

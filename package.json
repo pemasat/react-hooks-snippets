@@ -1,0 +1,28 @@
+{
+  "name": "react-hooks-snippets",
+  "version": "1.0.0",
+  "description": "Useful snippets for React Hooks",
+  "keywords": [
+    "react",
+    "hooks",
+    "usestate",
+    "useeffect",
+    "snippets",
+  ],
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": "https://github.com/mib32/react-hooks-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mib32/react-hooks-snippets/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-lintspaces": "^0.4.1"
+  }
+}
