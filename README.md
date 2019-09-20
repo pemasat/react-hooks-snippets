@@ -17,6 +17,8 @@ urf: useRef
 uim: useImperativeHandle
 ula: useLayoutEffect
 ude: useDebugValue
+
+// Or you can use with 'React.' so you will not have to add imports.
 rust: React.useState
 ruef: React.useEffect
 ruco: React.useContext
@@ -28,5 +30,3 @@ ruim: React.useImperativeHandle
 rula: React.useLayoutEffect
 rude: React.useDebugValue
 ```
-
-Usage with 'React.' is helpful because you will not have to add imports.
