@@ -7,7 +7,7 @@
     "hooks",
     "usestate",
     "useeffect",
-    "snippets",
+    "snippets"
   ],
   "scripts": {
     "test": "gulp"
