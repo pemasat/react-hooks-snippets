@@ -13,7 +13,7 @@ uco: useContext
 ure: useReducer
 ucb: useCallback
 ume: useMemo
-urf: useRf
+urf: useRef
 uim: useImperativeHandle
 ula: useLayoutEffect
 ude: useDebugValue
@@ -23,7 +23,7 @@ ruco: React.useContext
 rure: React.useReducer
 rucb: React.useCallback
 rume: React.useMemo
-rurf: React.useRf
+rurf: React.useRef
 ruim: React.useImperativeHandle
 rula: React.useLayoutEffect
 rude: React.useDebugValue
