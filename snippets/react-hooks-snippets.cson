@@ -1,4 +1,109 @@
 '.source.js.jsx':
-  'hook':
-    'prefix': 'us'
-    'body': 'const [${1:name}, set${1/^(.){1}(.*)*/\\u$1$2/}] = React.use${2:State}($3)'
+  'React.useState':
+    'prefix': 'rust'
+    'body': 'const [${1}, set${1/(.+)/\\u$1/}] = React.useState(${2})'
+  'React.useEffect':
+    'prefix': 'ruef'
+    'body': """
+      React.useEffect(() => {
+          $1
+        }, [$2])
+    """
+  'React.useContext':
+    'prefix': 'ruco'
+    'body': """
+      const ${1:value} = React.useContext(${2:MyContext})
+    """
+  'React.useReducer':
+    'prefix': 'rure'
+    'body': """
+      const [${1:state}, ${2:dispatch}] = React.useReducer(${3:reducer}, ${4:initialState})
+    """
+  'React.useCallback':
+    'prefix': 'rucb'
+    'body': """
+      React.useCallback(() => {
+          $1
+        }, [$2])
+    """
+  'React.useMemo':
+    'prefix': 'rume'
+    'body': """
+      React.useMemo(() => $1, [$2])
+    """
+  'React.useRef':
+    'prefix': 'rurf'
+    'body': """
+      const ${1:refContainer} = React.useRef(${2:initialValue})
+    """
+  'React.useImperativeHandle':
+    'prefix': 'ruim'
+    'body': """
+      React.useImperativeHandle(${1:ref}, ${2:createHandle}, [${3:deps}])
+    """
+  'React.useLayoutEffect':
+    'prefix': 'rula'
+    'body': """
+      React.useLayoutEffect(() => {
+          $1
+        }, [$2])
+    """
+  'React.useDebugValue':
+    'prefix': 'rude'
+    'body': """
+      React.useDebugValue(${1:isOnline} ? '${2:Online}' : '${3:Not Online}'))
+    """
+  'useState':
+    'prefix': 'ust'
+    'body': 'const [${1}, set${1/(.+)/\\u$1/}] = useState(${2})'
+  'useEffect':
+    'prefix': 'uef'
+    'body': """
+      useEffect(() => {
+          $1
+        }, [$2])
+    """
+  'useContext':
+    'prefix': 'uco'
+    'body': """
+      const ${1:value} = useContext(${2:MyContext})
+    """
+  'useReducer':
+    'prefix': 'ure'
+    'body': """
+      const [${1:state}, ${2:dispatch}] = useReducer(${3:reducer}, ${4:initialState})
+    """
+  'useCallback':
+    'prefix': 'ucb'
+    'body': """
+      useCallback(() => {
+          $1
+        }, [$2])
+    """
+  'useMemo':
+    'prefix': 'ume'
+    'body': """
+      useMemo(() => $1, [$2])
+    """
+  'useRef':
+    'prefix': 'urf'
+    'body': """
+      const ${1:refContainer} = useRef(${2:initialValue})
+    """
+  'useImperativeHandle':
+    'prefix': 'uim'
+    'body': """
+      useImperativeHandle(${1:ref}, ${2:createHandle}, [${3:deps}])
+    """
+  'useLayoutEffect':
+    'prefix': 'ula'
+    'body': """
+      useLayoutEffect(() => {
+          $1
+        }, [$2])
+    """
+  'useDebugValue':
+    'prefix': 'ude'
+    'body': """
+      useDebugValue(${1:isOnline} ? '${2:Online}' : '${3:Not Online}'))
+    """
