@@ -6,8 +6,8 @@
     'prefix': 'ruef'
     'body': """
       React.useEffect(() => {
-          $1
-        }, [$2])
+        $1
+      }, [$2])
     """
   'React.useContext':
     'prefix': 'ruco'
@@ -23,8 +23,8 @@
     'prefix': 'rucb'
     'body': """
       React.useCallback(() => {
-          $1
-        }, [$2])
+        $1
+      }, [$2])
     """
   'React.useMemo':
     'prefix': 'rume'
@@ -45,8 +45,8 @@
     'prefix': 'rula'
     'body': """
       React.useLayoutEffect(() => {
-          $1
-        }, [$2])
+        $1
+      }, [$2])
     """
   'React.useDebugValue':
     'prefix': 'rude'
@@ -60,8 +60,8 @@
     'prefix': 'uef'
     'body': """
       useEffect(() => {
-          $1
-        }, [$2])
+        $1
+      }, [$2])
     """
   'useContext':
     'prefix': 'uco'
@@ -77,8 +77,8 @@
     'prefix': 'ucb'
     'body': """
       useCallback(() => {
-          $1
-        }, [$2])
+        $1
+      }, [$2])
     """
   'useMemo':
     'prefix': 'ume'
@@ -99,8 +99,8 @@
     'prefix': 'ula'
     'body': """
       useLayoutEffect(() => {
-          $1
-        }, [$2])
+        $1
+      }, [$2])
     """
   'useDebugValue':
     'prefix': 'ude'
