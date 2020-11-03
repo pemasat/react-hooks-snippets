@@ -1,4 +1,4 @@
-'.source.js.jsx':
+'.source.js, .source.jsx':
   'React.useState':
     'prefix': 'rust'
     'body': 'const [${1}, set${1/(.+)/\\u$1/}] = React.useState(${2})'
